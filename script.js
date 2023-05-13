@@ -47,7 +47,8 @@ function concatenateArray() {
     { id: 8, name: "jack8", age: "29", marks: 95 },
     { id: 9, name: "karen8", age: "29", marks: 55 },
   ];
-  arr.concat(arr2);
+  arr = arr.concat(arr2);
+  console.log(arr);
 }
 
 //`PrintStudentbyMap()`: console.log all students with marks over 50 using the `.map` function.
